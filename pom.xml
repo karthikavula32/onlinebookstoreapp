@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>onlinebookstore</groupId>
   <artifactId>onlinebookstore</artifactId>
-  <version>0.0.3-SNAPSHOT</version>
+  <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
   <build>
     <sourceDirectory>src</sourceDirectory>
@@ -33,11 +33,11 @@
       <distributionManagement>
         <snapshotRepository>
             <id>nexus-snapshots</id>
-            <url>http://54.146.186.110:8081/repository/maven-snapshots/</url>
+            <url>http://13.201.59.104:8081/repository/maven-snapshots/</url>
         </snapshotRepository>
         <repository>
             <id>nexus-releases</id>
-            <url>http://54.146.186.110:8081/repository/maven-releases/</url>
+            <url>http://13.201.59.104:8081/repository/maven-releases/</url>
         </repository>
     </distributionManagement>
 
@@ -62,7 +62,7 @@
         </profile>
     </profiles>
 <scm>
-    <connection>scm:git:https://github.com/kalyanreddyc/onlinebookstoreapp.git</connection>
+    <connection>scm:git:https://github.com/karthikavula32/onlinebookstoreapp.git</connection>
     <tag>HEAD</tag>
   </scm>
 	
